@@ -51,6 +51,9 @@ class Cell:
             if self.surrounded_cells_mines_length == 0:
                 for cell in self.surrounded_cells:
                     cell.show_cell()
+                    # unbinding the surrounded cells
+                    cell.cell_btn_object.unbind('<Button-1>')
+                    cell.cell_btn_object.unbind('<Button-3>')
                     # configuring the background to default if the cell is flagged
                     cell.cell_btn_object.configure(bg='SystemButtonFace')
             self.show_cell()
