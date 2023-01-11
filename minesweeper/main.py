@@ -4,6 +4,7 @@ import settings
 import utils
 
 
+#added a comment for the commit
 # Instantiating window
 root = Tk()
 # Override the settings of the window
