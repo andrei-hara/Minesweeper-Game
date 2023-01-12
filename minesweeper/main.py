@@ -3,8 +3,6 @@ from cell import Cell
 import settings
 import utils
 
-#third commit!! asdaasddsadas
-#add another comment for the commit
 #added a comment for the commit
 # Instantiating window
 root = Tk()
